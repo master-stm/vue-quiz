@@ -1,0 +1,1086 @@
+[{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed0fa"
+  },
+  "answers": [
+    "50 كم/ساعة",
+    "70 كم/ساعة",
+    "90 كم/ساعة",
+    "110 كم/ساعة"
+  ],
+  "question": "ما الحد الأقصى للسرعة العامة في المناطق المأهولة؟",
+  "correct": "70 كم/ساعة",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/13848735790.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed104"
+  },
+  "answers": [
+    "بانتظام كجزء طبيعي من نهر الطريق",
+    "كمساحة إضافية على الطريق كلما واجهت مشكلة في سيارتي واضطررت للتوقف",
+    "عندما يحل الظلام مع وجود الكثير من حركة المرور القادمة",
+    "عند تجاوز المركبات الأخرى"
+  ],
+  "question": "كيف يجب أن تستخدم حارة الطوارئ؟",
+  "correct": "كمساحة إضافية على الطريق كلما واجهت مشكلة في سيارتي واضطررت للتوقف",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/13848699250.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed105"
+  },
+  "answers": [
+    "تنطبق قاعدة الأولوية للقادم من اليمين",
+    "تنطبق قاعدة الخروج",
+    "يجب عليّ إفساح الطريق للدراجة البخارية الصغيرة",
+    "يجب أن تفسح الدراجة البخارية الصغيرة الطريق لي"
+  ],
+  "question": "تقودُ سيارتك في حركة المرور وتريد عبور معبر دراجات هوائية. تقترب دراجة بخارية صغيرة من الفئة الثانية من معبر الدراجات الهوائية من اليمين. ماذا يعني ذلك؟",
+  "correct": "يجب عليّ إفساح الطريق للدراجة البخارية الصغيرة",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/15571517970.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed106"
+  },
+  "answers": [
+    "يحظر الدوران للخلف",
+    "يمكن قيادة الدراجات البخارية الصغيرة من الفئة الأولى على الطرق المفتوحة، لكن ليس الدراجات البخارية الصغيرة من الفئة الثانية",
+    "يمكنني القيادة للخلف فقط إذا كان من الممكن فعل ذلك دون إعاقة المركبات الأخرى",
+    "لا يمكنني السير بسرعة أبطأ من 30 كم/ساعة"
+  ],
+  "question": "ما الذي ينطبق على الطرق المفتوحة؟",
+  "correct": "يحظر الدوران للخلف",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/13838278280.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed107"
+  },
+  "answers": [
+    "السبت الساعة 24:00",
+    "الأحد الساعة 08:00",
+    "الأحد الساعة 10:00",
+    "الإثنين الساعة 08:00"
+  ],
+  "question": "يمكنك إيقاف سيارتك يوم السبت الساعة 19:00. ما آخر وقت يمكنك الانتظار إليه؟",
+  "correct": "الإثنين الساعة 08:00",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/0427FC35C.jpeg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed108"
+  },
+  "answers": [
+    "شاحنة مع مقطورة",
+    "سيارة ركاب مع مقطورة",
+    "جرار مع مقطورة"
+  ],
+  "question": "أي مجموعة من المركبات يجب أن تعرض هذا العاكس على شكل مثلث على مؤخرتها؟",
+  "correct": "سيارة ركاب مع مقطورة",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/15550736440.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed109"
+  },
+  "answers": [
+    "نعم",
+    "فقط إذا كانت السيارة ستستخدم لنقل مقطورة أثقل من 700 كغم",
+    "لا"
+  ],
+  "question": "هل يتعين عليك تقديم مركبتك لفحص التسجيل إذا كنت قد ركبّت قضيب جر لسيارتك؟",
+  "correct": "لا",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/13838196090.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed10a"
+  },
+  "answers": [
+    "عندما أقود في شارع باتجاه واحد",
+    "عندما أعيق حركة المرور الأخرى",
+    "عندما أقود على طريق رئيسي"
+  ],
+  "question": "في أي ظروف لا يُسمح لك بقيادة السيارة للخلف؟",
+  "correct": "عندما أعيق حركة المرور الأخرى",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/13848689620.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed10b"
+  },
+  "answers": [
+    "تقدير سرعة المركبة القادمة",
+    "تقدير سرعة السيارة التي تتجاوزها",
+    "تقدير متى ستجتاز السيارة التي تتجاوزها"
+  ],
+  "question": "تقودُ خلف سيارة تقرر تجاوزها. ما أصعب شيء تفعله في هذا الموقف؟",
+  "correct": "تقدير سرعة المركبة القادمة",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/13838212290.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed10c"
+  },
+  "answers": [
+    "أقود فقط خلال النهار",
+    "أترك لنفسي الكثير من الوقت للقيادة",
+    "أتبع بصرامة جميع قواعد المرور",
+    "أفسح الطريق دائمًا"
+  ],
+  "question": "ما أفضل طريقة لتحسين السلامة على الطرق؟",
+  "correct": "أترك لنفسي الكثير من الوقت للقيادة",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/13837478950.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed10d"
+  },
+  "answers": [
+    "20",
+    "30",
+    "40",
+    "50"
+  ],
+  "question": "لا يجوز تصميم المعدات الآلية من الفئة الثانية للعمل بسرعة أكبر من ____ كم/ساعة.",
+  "correct": "30",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/13873798100.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed10e"
+  },
+  "answers": [
+    "نعم، لأن سيارتي بالكامل داخل مساحة انتظار السيارات",
+    "لا، لأنني أعيق سائق السيارة الفضية"
+  ],
+  "question": "أوقفتَ سيارتك للتو (السيارة الحمراء في الصورة). السيارة بأكملها موجودة داخل مكان انتظار السيارات لكنك أوقفت سيارتك على مسافة قريبة للغاية من السيارة الفضية بحيث لا يستطيع سائقها الدخول من الباب في جهة السائق. هل أوقفت سيارتك بشكل قانوني؟",
+  "correct": "لا، لأنني أعيق سائق السيارة الفضية",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/0029A1554W.jpeg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed10f"
+  },
+  "answers": [
+    "يجب أن ينحرف سائق مركبة البضائع إلى اليسار بسبب وجود عائق أمامه",
+    "قد تسقط الحمولة من مركبة البضائع",
+    "قد تتوقف مركبة البضائع فجأة"
+  ],
+  "question": "تقود سيارتك على طول طريق ريفي مستقيم مع رؤية جيدة وتنوي تجاوز مركبة بضائع. أي مما يلي يشكل الخطر الأكبر؟",
+  "correct": "يجب أن ينحرف سائق مركبة البضائع إلى اليسار بسبب وجود عائق أمامه",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/13984350220.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed110"
+  },
+  "answers": [
+    "يجب أن أتوقف دائمًا قبل اجتياز معبر المشاة",
+    "يجب على راكبي الدراجات والمشاة إفساح الطريق لي",
+    "يجب أن أكون على استعداد للتوقف لراكبي الدراجات أو المشاة"
+  ],
+  "question": "ما الخيار الصحيح؟",
+  "correct": "يجب أن أكون على استعداد للتوقف لراكبي الدراجات أو المشاة",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/13838356360.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed111"
+  },
+  "answers": [
+    "سيارة خاصة بمقطورة بغض النظر عن وزنها",
+    "سيارة خاصة بوزن كلي أقل من 3.5 طن ومعدات آلية",
+    "سيارة خاصة ودراجة نارية ثقيلة"
+  ],
+  "question": "أي المركبات التالية يُسمح لك بقيادتها برخصة قيادة من الفئة B؟",
+  "correct": "سيارة خاصة بوزن كلي أقل من 3.5 طن ومعدات آلية",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/15832443830.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed112"
+  },
+  "answers": [
+    "إطارات الاحتكاك",
+    "الإطارات المزودة بمسامير",
+    "الإطارات الصيفية"
+  ],
+  "question": "ما نوع الإطارات التي تسحب الجسيمات الأكثر خطورة من سطح الطريق؟",
+  "correct": "الإطارات المزودة بمسامير",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/15573111690.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed113"
+  },
+  "answers": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "question": "أي إشارات الطريق التالية تشير إلى اتجاه السفر لحركة المرور المحولة؟",
+  "correct": "B",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/13923000540.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed0fb"
+  },
+  "answers": [
+    "عندما أخرج من نفق",
+    "عندما أدخل طريقًا سريعًا",
+    "عندما تبهر حركة المرور القادمة بصري",
+    "عندما أخرج من طريق سريع"
+  ],
+  "question": "في أي موقف من المرجح أن يتسبب عمى السرعة في وقوع حادث؟",
+  "correct": "عندما أخرج من طريق سريع",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/C17B499W2.jpeg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed0fc"
+  },
+  "answers": [
+    "نعم",
+    "لا"
+  ],
+  "question": "وفقًا للقانون، هل تعتبر سيارتك متوقفة إذا توقفتَ لفترة وجيزة لإجراء مكالمة هاتفية؟",
+  "correct": "نعم",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/15832454240.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed0fd"
+  },
+  "answers": [
+    "يمكنني الاستمرار في قيادة السيارة طالما أنه لا يوجد شيء خطأ بها",
+    "يُطبق حظر القيادة تلقائيًا على سيارتي",
+    "يمكنني الاستمرار في القيادة لكن تكلفة التأمين تزيد تلقائيًا"
+  ],
+  "question": "ماذا يحدث إذا لم يتم فحص سيارتك خلال فترة الفحص؟",
+  "correct": "يُطبق حظر القيادة تلقائيًا على سيارتي",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/14170727650.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed0fe"
+  },
+  "answers": [
+    "يقلل من خطر سقوط الطفل من المقعد أثناء السفر",
+    "يقلل من خطر شعور الطفل بالمرض أثناء السفر",
+    "يوفر الحماية المثلى لرقبة الطفل ورأسه",
+    "يمنح الطفل شعورًا بالطمأنينة"
+  ],
+  "question": "أي الخيارات التالية أهم سبب لضرورة تركيب مقعد الأمان للأطفال بحيث يكون مواجهًا للخلف؟",
+  "correct": "يوفر الحماية المثلى لرقبة الطفل ورأسه",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/15549936660.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed0ff"
+  },
+  "answers": [
+    "الاتصال بشركة قطْر",
+    "وضع مثلث التحذير الخاص بي",
+    "الاتصال بشركة التأمين الخاصة بي",
+    "استبدال الإطار الفارغ من الهواء في أقرب وقت ممكن حيث لا يُسمح لي بالبقاء ثابتًا على جانب الطريق لأكثر من 30 دقيقة"
+  ],
+  "question": "تقودُ على طريق سرعته القصوى 70 كم/ ساعة دون أي حارات للطوارئ. ولديك إطار فارغ من الهواء ويجب أن تتوقف عند جانب الطريق. ما أول شيء يتعين عليك فعله؟",
+  "correct": "وضع مثلث التحذير الخاص بي",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/14165415900.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed100"
+  },
+  "answers": [
+    "إذا كانت السيارة بها إطارات بدون مسامير، فيجب أن تكون المقطورة أيضًا بها إطارات بدون مسامير",
+    "سيكون وزن قضيب الجر الأمامي أكبر إذا وضعتُ الحمولة تجاه مقدمة المقطورة، في الجزء الأقرب إلى السيارة",
+    "للقيادة مع مقطورة خفيفة موصلة، يجب أن أحمل رخصة قيادة من الفئة BE"
+  ],
+  "question": "تنوي القيادة بمقطورة موصلة بسيارتك. أي الخيارات التالية صحيح؟",
+  "correct": "سيكون وزن قضيب الجر الأمامي أكبر إذا وضعتُ الحمولة تجاه مقدمة المقطورة، في الجزء الأقرب إلى السيارة",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/14179827670.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed101"
+  },
+  "answers": [
+    "نعم، إذا كانت السرعة القصوى 70 كم/ساعة أو أقل",
+    "نعم، إذا كانت السرعة القصوى 50 كم/ساعة أو أقل",
+    "نعم، إذا لم اتسبب بإعاقة حركة المرور الأخرى",
+    "لا"
+  ],
+  "question": "هل يُسمح بالتوقف على طريق رئيسي؟",
+  "correct": "لا",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/13843579480.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed114"
+  },
+  "answers": [
+    "رقم التقاطع",
+    "رقم الطريق على طريق سريع أو طريق مفتوح",
+    "إشارة الاتجاه: طريق خاص",
+    "إشارة الاتجاه: تحويل مؤقت"
+  ],
+  "question": "ماذا تعني إشارة الطريق هذه؟",
+  "correct": "رقم التقاطع",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/15573052180.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed102"
+  },
+  "answers": [
+    "80 كم/ساعة",
+    "90 كم/ساعة",
+    "110 كم/ساعة",
+    "120 كم/ساعة"
+  ],
+  "question": "ما السرعة القصوى المسموح بها لمركبة بضائع ثقيلة موصل بها مقطورة بمكابح؟",
+  "correct": "80 كم/ساعة",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/13843563830.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed115"
+  },
+  "answers": [
+    "سائق بعمر 20 عامًا",
+    "سائق بعمر 30 عامًا",
+    "سائق بعمر 45 عامًا",
+    "سائق بعمر 60 عامًا"
+  ],
+  "question": "وفقًا للإحصاءات، أي هؤلاء السائقين الأكثر عرضة لخطر الوفاة على الطريق؟",
+  "correct": "سائق بعمر 20 عامًا",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/15573021150.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed103"
+  },
+  "answers": [
+    "نعم",
+    "لا"
+  ],
+  "question": "هل يُسمح لك بقيادة دراجات نارية خفيفة برخصة قيادة من الفئة B؟",
+  "correct": "لا",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/13838114280.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed116"
+  },
+  "answers": [
+    "حتى أتمكن من التوقف لتفادي أي عقبات",
+    "لتقليل استهلاكي للوقود",
+    "لتقليل البلى والاهتراء في سيارتي"
+  ],
+  "question": "لماذا يجب عليك دائمًا تعديل سرعتك وفقًا للظروف السائدة؟",
+  "correct": "حتى أتمكن من التوقف لتفادي أي عقبات",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/13838299570.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed117"
+  },
+  "answers": [
+    "يجب أن أتوقف دائمًا قبل عبور مزلقان سكك حديدية",
+    "يمكنني عبور مزلقان السكك الحديدية دون أي خطر لأن الحواجز مرفوعة وإشارة المرور بيضاء",
+    "على الرغم من رفع الحواجز وإشارة المرور البيضاء، ما زلتَ بحاجة إلى التحقق من خطوط القطار للتأكد من عدم وجود قطار قادم"
+  ],
+  "question": "تنوي اجتياز مزلقان سكك حديدية. توجد حواجز مرفوعة وإشارة المرور بيضاء. ما الخيار الصحيح؟",
+  "correct": "على الرغم من رفع الحواجز وإشارة المرور البيضاء، ما زلتَ بحاجة إلى التحقق من خطوط القطار للتأكد من عدم وجود قطار قادم",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/13838156760.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed118"
+  },
+  "answers": [
+    "في موقف سيارات",
+    "في محطة وقود",
+    "عند القيادة للخلف",
+    "عند القيادة بسرعة تقل عن 10 كم/ساعة في ازدحام مروري"
+  ],
+  "question": "في أي المواقف التالية يجب عليك وضع حزام أمان؟",
+  "correct": "عند القيادة بسرعة تقل عن 10 كم/ساعة في ازدحام مروري",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/14167917300.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed119"
+  },
+  "answers": [
+    "نعم، في الموقف A فقط",
+    "نعم، في الموقف B فقط",
+    "نعم، في الموقف C فقط",
+    "لا"
+  ],
+  "question": "تنوي القيادة مباشرة إلى الأمام عند التقاطع الموضح في الصور. هل تنطبق قاعدة الأولوية للقادم من اليمين في أي من المواقف الموضحة في الصور؟",
+  "correct": "نعم، في الموقف C فقط",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/0041A1597W.jpeg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed11a"
+  },
+  "answers": [
+    "الانتقال إلى حارة الطوارئ والتوقف والسماح للسيارة في الخلف بالتجاوز",
+    "زيادة المسافة بيني وبين السيارة أمامي"
+  ],
+  "question": "الجو مظلم في الخارج وأنت عالق في ازدحام مروري. السيارة خلفك قريبة منك بشكل غير مريح. ماذا ينبغي أن تفعل؟",
+  "correct": "زيادة المسافة بيني وبين السيارة أمامي",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/14170596970.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed11b"
+  },
+  "answers": [
+    "عند أقصى اليمين قدر الإمكان",
+    "أقرب ما يمكن إلى منتصف الطريق",
+    "عند أقصى اليسار قدر الإمكان"
+  ],
+  "question": "كيف ينبغي أن تضع سيارتك عند تقاطع إذا كنت تنوي الانعطاف يمينًا؟",
+  "correct": "عند أقصى اليمين قدر الإمكان",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/13843578380.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed11c"
+  },
+  "answers": [
+    "لا يزال من الممكن التوجيه، لكنه سيكون أثقل بكثير",
+    "سيكون من المستحيل التوجيه",
+    "سيصبح توجيه السيارة منحفضًا",
+    "سيصبح توجيه السيارة زائدًا"
+  ],
+  "question": "ماذا سيحدث إذا كان التوجيه المعزز معطلاً؟",
+  "correct": "لا يزال من الممكن التوجيه، لكنه سيكون أثقل بكثير",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/O47E643.jpeg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed11d"
+  },
+  "answers": [
+    "يجب أن أركز انتباهي على كل من راكبة الدراجة ومزلقان السكك الحديدية",
+    "يجب أن أركز انتباهي فقط على مزلقان السكك الحديدية في حالة اقتراب قطار",
+    "يجب أن أركز انتباهي فقط على راكبة الدراجة في حالة تأرجحها وسقوطها"
+  ],
+  "question": "ماذا يجب ان تفعل في هذا الموقف؟",
+  "correct": "يجب أن أركز انتباهي على كل من راكبة الدراجة ومزلقان السكك الحديدية",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/13838378780.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed11e"
+  },
+  "answers": [
+    "110 سم",
+    "120 سم",
+    "135 سم",
+    "145 سم"
+  ],
+  "question": "كم يجب أن يكون طول الطفل ليبدأ وضع حزام أمان عادي؟",
+  "correct": "135 سم",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/13837309770.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed11f"
+  },
+  "answers": [
+    "سأحتاج فقط إلى إعادة اختبار القيادة الخاص بي",
+    "سأحتاج فقط إلى إعادة الاختبار النظري",
+    "سأضطر إلى إعادة الاختبار النظري واختبارات القيادة",
+    "سيتم إلغاء رخصة قيادتي لمدة ثلاثة أشهر وسيتم تغريمي"
+  ],
+  "question": "ماذا يحدث إذا أُلغيت رخصة قيادتك خلال فترة الاختبار؟",
+  "correct": "سأضطر إلى إعادة الاختبار النظري واختبارات القيادة",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/15548119890.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed120"
+  },
+  "answers": [
+    "يمكنني القيادة فقط في الحارة اليسرى",
+    "يمكنني القيادة فقط في الحارة اليمنى",
+    "يمكنني اختيار القيادة إما في الحارة اليمنى أو اليسرى"
+  ],
+  "question": "تنوي القيادة على الطريق E18 نحو Oslo. في أي حارة يجب أن تسير؟",
+  "correct": "يمكنني اختيار القيادة إما في الحارة اليمنى أو اليسرى",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/13839058860.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed121"
+  },
+  "answers": [
+    "نعم، تصبح النصف",
+    "نعم، تنخفض إلى الربع",
+    "كلا، لا تتغير"
+  ],
+  "question": "تقود بسرعة 100 كم/ساعة وتقلل سرعتك إلى 50 كم/ساعة. هل تتغير مسافة الكبح؟",
+  "correct": "نعم، تنخفض إلى الربع",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/13838179600.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed122"
+  },
+  "answers": [
+    "عندما يكون الوزن الكلي للمقطورة أقل من 750 كغم",
+    "عندما يكون وزن المقطورة الفارغة أقل من 750 كغم",
+    "عندما يكون وزن المقطورة الفارغة أقل من 3500 كغم",
+    "عندما يكون الوزن الكلي للمقطورة أقل من 3500 كغم"
+  ],
+  "question": "متى تعتبر المقطورة مقطورةً خفيفة؟",
+  "correct": "عندما يكون الوزن الكلي للمقطورة أقل من 750 كغم",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/13838152090.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed123"
+  },
+  "answers": [
+    "البحث عن الإشارات أو التعليمات الأخرى لاحتمال أن تكون إشارة المرور معطلة",
+    "التوقف، لأن الإشارة على وشك أن تتحول إلى الأحمر",
+    "مواصلة القيادة، ستتحول الإشارة إلى الأخضر قريبًا"
+  ],
+  "question": "تقتربُ من إشارة مرور تومض باللون الأصفر. ثم تتحول إلى اللون الأصفر الثابت. ماذا ينبغي أن تفعل؟",
+  "correct": "التوقف، لأن الإشارة على وشك أن تتحول إلى الأحمر",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/13838306730.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed124"
+  },
+  "answers": [
+    "نعم، يجب وضع علامة على أي حمولة تبرز من الخلف",
+    "نعم، إذا برزت الحمولة بأكثر من متر واحد في الأمام",
+    "نعم، يجب وضع علامة على أي حمولة تبرز من الخلف",
+    "لا"
+  ],
+  "question": "هل أنت ملزم بوضع علامة على الحمولة البارزة من سيارتك؟",
+  "correct": "نعم، إذا برزت الحمولة بأكثر من متر واحد في الأمام",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/15505720710.png",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed125"
+  },
+  "answers": [
+    "يجب أن أكون أقرب كثيرًا خلف الشاحنة لتقليل طول التجاوز",
+    "يجب أن أضع نفسي بالقرب من خط المنتصف وأحافظ على مسافة كافية من الشاحنة لضمان الرؤية الجيدة للأمام",
+    "يجب أن أبدّل إلى ترس سرعة أعلى للتسارع بشكل أكبر أثناء التجاوز",
+    "يجب أن أصدر صوتًا باستخدام آلة التنبيه لتنبيه سائق الشاحنة بأنني أخطط للتجاوز"
+  ],
+  "question": "تقودُ على طريق ريفي خلف شاحنة تنوي تجاوزها. كيف تستعد بأفضل شكل للتجاوز؟",
+  "correct": "يجب أن أضع نفسي بالقرب من خط المنتصف وأحافظ على مسافة كافية من الشاحنة لضمان الرؤية الجيدة للأمام",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/15550756460.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed126"
+  },
+  "answers": [
+    "سيبهر ضوء المصابيح الأمامية المنخفضة بصر الآخرين",
+    "إذا كانت سيارتي ذات دفع خلفي، فسوف يتأثر جرها",
+    "سوف يضعف تأثير الكبح على المقطورة",
+    "قد يتوقف كابل الانفصال المتصل بالسيارة عن العمل بشكل صحيح"
+  ],
+  "question": "ما الذي قد يحدث إذا قمت بتحميل مقطورتك بحيث يكون وزن قضيب الجر الأمامي عاليًا للغاية؟",
+  "correct": "سيبهر ضوء المصابيح الأمامية المنخفضة بصر الآخرين",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/15571523210.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed127"
+  },
+  "answers": [
+    "أقوم بتبديل الحارات طوال الوقت للوصول إلى وجهتي بشكل أسرع",
+    "أستخدم آلة التنبيه عندما تفشل السيارة في الأمام بالتحرك رغم أن الضوء قد تحول إلى اللون الأخضر",
+    "أتبع دائمًا قواعد المرور، بغض النظر عن الموقف",
+    "أسهّلُ التجاوز للسائقين حتى عندما يكون التجاوز غير قانوني"
+  ],
+  "question": "أي مما يلي سلوك آمن ومسؤول في حركة المرور؟",
+  "correct": "أسهّلُ التجاوز للسائقين حتى عندما يكون التجاوز غير قانوني",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/13837476790.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed128"
+  },
+  "answers": [
+    "عندما أكون في عجلة من أمري وأريد أن يسرع السائق الموجود أمامي",
+    "عند الضرورة لمنع الخطر",
+    "عندما أكون على وشك تجاوز مركبة أخرى",
+    "عند رؤية صديق"
+  ],
+  "question": "متى يجب أن تستخدم آلة التنبيه؟",
+  "correct": "عند الضرورة لمنع الخطر",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/13838125350.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed129"
+  },
+  "answers": [
+    "20 %",
+    "35 %",
+    "50 %",
+    "65 %"
+  ],
+  "question": "تعني الرحلات الأقصر المزيد من الانبعاثات لكل كيلومتر مقارنة بالرحلات الأطول. ما النسبة المئوية لرحلات السيارات في السويد التي تقل عن خمسة كيلومترات؟",
+  "correct": "50 %",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/15549940230.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed12a"
+  },
+  "answers": [
+    "غالبًا ما يسهرون لفترة متأخرة ويقودون عندما يكونوا متعبين",
+    "كانوا يتناولون الكحول ويقودون تحت تأثيره",
+    "يكونوا متلهفين على العودة إلى المنزل ومن ثم يشعرون بالتوتر",
+    "غالبًا ما يكونوا أقل تركيزًا في الليل"
+  ],
+  "question": "ما السبب الأكثر شيوعًا لوفاة العديد من الشباب في حوادث مرورية ليلاً في عطلات نهاية الأسبوع؟",
+  "correct": "كانوا يتناولون الكحول ويقودون تحت تأثيره",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/13837424230.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed12b"
+  },
+  "answers": [
+    "لن تعمل المكابح",
+    "لن تعمل المصابيح",
+    "سيكون التوجيه أثقل",
+    "سيكون من الصعب تبديل ترس السرعة"
+  ],
+  "question": "ما الذي يجب عليك مراعاته عند قطر سيارتك مع إيقاف تشغيل المحرك؟",
+  "correct": "سيكون التوجيه أثقل",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/15550616470.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed12c"
+  },
+  "answers": [
+    "يجعلني الدواء عادة سائقًا أفضل",
+    "قد يكون مزجهما مميتًا",
+    "يؤثر الكحول عليّ فقط كسائق إذا كان لدي أكثر من 0.8 بالألف في مجرى الدم"
+  ],
+  "question": "كيف يؤثر عليك الكحول والأدوية؟",
+  "correct": "قد يكون مزجهما مميتًا",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/14165448360.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed12d"
+  },
+  "answers": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "question": "أي إشارة مرور تشير إلى الطريق الذي لا يمكنك السير فيه عند القطر؟",
+  "correct": "A",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/15553375990.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed12e"
+  },
+  "answers": [
+    "يكون أقصر عند السرعات الأعلى",
+    "يكون أطول عند السرعات الأعلى",
+    "يكون أقصر عادةً عند استخدام مكابح ABS",
+    "سيكون أطول إذا كنت بحاجة إلى الاختيار بين طرق مختلفة للرد"
+  ],
+  "question": "أي العبارات التالية حول وقت رد الفعل صحيحة؟",
+  "correct": "سيكون أطول إذا كنت بحاجة إلى الاختيار بين طرق مختلفة للرد",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/15573110360.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed12f"
+  },
+  "answers": [
+    "عند الانتظار في مكان انتظار سيارات على طريق ريفي",
+    "عند الاقتراب من المشاة",
+    "عند القيادة على طريق ريفي دون أيّة مركبات قادمة",
+    "عند القيادة في المناطق المأهولة بلا إضاءة شوارع"
+  ],
+  "question": "تقودُ في الظلام. متى يجب عليك الامتناع عن استخدام المصابيح الأمامية العالية الرئيسية؟",
+  "correct": "عند الانتظار في مكان انتظار سيارات على طريق ريفي",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/13838214860.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed130"
+  },
+  "answers": [
+    "يعني هذا أنني أتعلم من الآخرين من خلال مشاهدة طريقة تصرفهم",
+    "يعني هذا أنني أتعلم من تجربتي في المواقف السابقة",
+    "يعني هذا أنني أتعلم من خلال الانتباه إلى ما يحدث في محيطي عند القيادة"
+  ],
+  "question": "ماذا يعني التعلم عن طريق التقليد؟",
+  "correct": "يعني هذا أنني أتعلم من الآخرين من خلال مشاهدة طريقة تصرفهم",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/13837437220.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed131"
+  },
+  "answers": [
+    "السماح لسيارة الشرطة بالتجاوز",
+    "التوقف على جانب الطريق",
+    "التقليل من سرعتك",
+    "مواصلة القيادة دون اتخاذ أي إجراء"
+  ],
+  "question": "تقود السيارة عندما لمحت سيارة شرطة في مرآة الرؤية الخلفية. تشير الشرطة إليك أولاً باستخدام المصابيح الأمامية العالية الرئيسية ثم باستخدام ضوء أزرق وأحمر متناوب. ماذا ينبغي أن تفعل؟",
+  "correct": "التوقف على جانب الطريق",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/15549962030.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed132"
+  },
+  "answers": [
+    "100-50 متر",
+    "200-100 متر",
+    "200 - 400 متر",
+    "400 - 500 متر"
+  ],
+  "question": "تقود على طريق سريع حد سرعته القصوى 110 كم/ساعة عندما ترى علامة تحذير. كم يبعد الخطر الذي تشير إليه العلامة؟",
+  "correct": "200 - 400 متر",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/13875467350.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed133"
+  },
+  "answers": [
+    "يجب أن أتوقف عند الخط وانتظر حتى يتحول لون ضوء الإشارة إلى الأخضر",
+    "يجب علي دائمًا التوقف عند الخط قبل الانعطاف",
+    "يمكنني الانعطاف إلى اليمين على الفور؛ لا يجب أن أتوقف عند الضوء الأحمر إلا إذا كنت سأواصل السير بشكل مستقيم"
+  ],
+  "question": "تقتربُ من هذا التقاطع وإشارة المرور حمراء. تنوي الانعطاف لليمين. ما الخيار الصحيح؟",
+  "correct": "يمكنني الانعطاف إلى اليمين على الفور؛ لا يجب أن أتوقف عند الضوء الأحمر إلا إذا كنت سأواصل السير بشكل مستقيم",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/13838357930.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed134"
+  },
+  "answers": [
+    "يتوقف نظام التوجيه المعزز عن العمل",
+    "قد تتغير محاذاة العجلة الأمامية وتتآكل إطاراتك بشكل غير طبيعي",
+    "لا يوجد خطر محدد؛ وسوف يوفر الهواء داخل الإطارات وتعليق السيارة الحماية للسيارة ضد أي ضرر"
+  ],
+  "question": "ما الخطر الأكبر عندما تصطدم برصيف؟",
+  "correct": "قد تتغير محاذاة العجلة الأمامية وتتآكل إطاراتك بشكل غير طبيعي",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/13837305180.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed135"
+  },
+  "answers": [
+    "نعم، لكن لفترة وجيزة فقط",
+    "نعم، لكن فقط طالما لا أعيق حركة المرور الأخرى",
+    "نعم، لأنني في منطقة مأهولة",
+    "لا"
+  ],
+  "question": "هل يمكنك التوقف حيث توقفت السيارة الحمراء لإنزال الركاب؟",
+  "correct": "لا",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/0444A1564W.jpeg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed136"
+  },
+  "answers": [
+    "سوف يكون مميزًا بالحرف A",
+    "سوف يكون مميزًا بالحرف G",
+    "سوف يكون مميزًا بالحرف E",
+    "تم اعتماد جميع مقاعد سلامة الأطفال لاستخدامها كأجهزة سلامة"
+  ],
+  "question": "كيف يمكنك التأكد من أن مقعد سلامة الأطفال معتمد للاستخدام كجهاز أمان في سيارة ركاب؟",
+  "correct": "سوف يكون مميزًا بالحرف E",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/15549928660.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed137"
+  },
+  "answers": [
+    "يجب أن أفسح الطريق لأيّة مركبات على وشك دخول الطريق السريع",
+    "يجب أن أنتقل إلى الحارة اليسرى لتجنب الاصطدام",
+    "يجب أن أبطئ دائمًا",
+    "يجب أن أقود بطريقة تسهل دخول المركبات الأخرى إلى الطريق السريع"
+  ],
+  "question": "تقودُ على طريق سريع وتقترب من مدخل. أي هذه العبارات صحيحة؟",
+  "correct": "يجب أن أقود بطريقة تسهل دخول المركبات الأخرى إلى الطريق السريع",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/13838357190.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed138"
+  },
+  "answers": [
+    "تبريد المحرك وحمايته من الصدأ وتزييت الأجزاء المتحركة",
+    "تسخين المحرك وتقليل الانبعاثات الضارة",
+    "يعمل كوقود احتياطي في حالة نفاذ إمدادات الوقود العادية للسيارة"
+  ],
+  "question": "ما الغرض من زيت المحرك؟",
+  "correct": "تبريد المحرك وحمايته من الصدأ وتزييت الأجزاء المتحركة",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/13837301400.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed139"
+  },
+  "answers": [
+    "نعم، لكن فقط إذا قامت بتشغيل صفارات الإنذار والمصابيح الزرقاء الوامضة",
+    "نعم، لكن بسرعات تصل إلى 30 كم/ساعة فقط",
+    "لا"
+  ],
+  "question": "هل تستطيع سيارات الشرطة السير على طول شارع للمشاة؟",
+  "correct": "نعم، لكن بسرعات تصل إلى 30 كم/ساعة فقط",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/15573017240.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed13a"
+  },
+  "answers": [
+    "سوف أتبع مبدأ المسمى السحّاب",
+    "سوف أفسح الطريق للمركبات الموجودة بالفعل في نهر الطريق",
+    "يجب أن تفسح لي حركة المرور في نهر الطريق"
+  ],
+  "question": "تقودُ حاليًا في حارة الطوارئ وعلى وشك العودة إلى نهر الطريق. ماذا ينبغي أن تفعل؟",
+  "correct": "سوف أفسح الطريق للمركبات الموجودة بالفعل في نهر الطريق",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/13848700180.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed13b"
+  },
+  "answers": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "question": "ما إشارة الطريق التي تمنع انتظار السيارات في التواريخ الفردية؟",
+  "correct": "A",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/13841652390.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed13c"
+  },
+  "answers": [
+    "الإيثانول",
+    "البنزين",
+    "الديزل"
+  ],
+  "question": "أي أنواع الوقود التالية متجددة؟",
+  "correct": "الإيثانول",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/13837318350.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed13d"
+  },
+  "answers": [
+    "حارة إضافية على المنحدرات المتدرجة تسهل التجاوز",
+    "منطقة يُمنع فيها التجاوز بسبب انحدار على الطريق",
+    "حارة مخصصة لوسائل النقل العام"
+  ],
+  "question": "ما هي حارة التسلل؟",
+  "correct": "حارة إضافية على المنحدرات المتدرجة تسهل التجاوز",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/13957325090.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed13e"
+  },
+  "answers": [
+    "لا",
+    "نعم، إذا كانت المركبة في المقدمة تشير إلى عدم وجود حركة مرور قادمة",
+    "نعم، لكن فقط إذا نفذت تجاوزًا سريعًا للغاية"
+  ],
+  "question": "تقود سيارتك على طريق ريفي من حارة واحدة في كل اتجاه وتقترب من قمة التل. هل من المقبول التجاوز مباشرةً قبل قمة التل؟",
+  "correct": "لا",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/15550770030.jpg",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd6bd09269d570a6c7ed13f"
+  },
+  "answers": [
+    "نعم، بشرط أن أقود ببطء وأحافظ على هوامش أمان جيدة",
+    "نعم، بشرط عدم وجود قطار قادم",
+    "نعم، لأن حواجز الذراع مرفوعة",
+    "لا، لأن المصباح أحمر"
+  ],
+  "question": "اجتاز قطار لتوه مزلقان السكك الحديدية. هل يمكنك القيادة مباشرة عبر المعبر في الموقف الموضح في الصورة؟",
+  "correct": "لا، لأن المصباح أحمر",
+  "language": "arabic",
+  "category": "bil",
+  "image": "https://trafiko-production-public.s3.eu-north-1.amazonaws.com/quiz_question_images/0414A290WC.jpeg",
+  "__v": 0
+}]
