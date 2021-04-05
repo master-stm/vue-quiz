@@ -20,7 +20,7 @@
 
                                                     <li class="togglepadding"> <label class="switch">
                                                             <input type="checkbox">
-                                                            <span @click="zoomImage(`myimage${index}`,`myresult${index}`)" class="toggler round"></span>
+                                                            <span @click="zoomImageHandler(`myimage${index}`,`zoomedimage${index}`)" class="toggler round"></span>
                                                         </label> </li>
 
                                                     <li>
@@ -29,7 +29,7 @@
                                                     </li>
                                                     <li class="togglepadding"> <label class="switch">
                                                             <input type="checkbox">
-                                                            <span @click="showAnswer = !showAnswer" class="toggler round"></span>
+                                                            <span @click="showAnswerHandler(index)" class="toggler round"></span>
                                                         </label> </li>
 
                                                     <li>
@@ -54,13 +54,14 @@
                                             <div class="answers">
 
                                                     <div v-for="(answer,i) in part.answers" :key="i" class="input">
-                                                        <input type="radio" name="choice0" >{{answer}}<br>
+                                                        <input type="radio" :id="i" :value="answer" v-model="userAnswers[index]" >{{answer}}<br>
                                                     </div>
 
                                             </div>
-                                            <button type="button" v-if="showAnswer" class="btn btn-primary btn-lg btn-block">
+                                            <button type="button" style="display:none" class="correctAnswers btn btn-primary btn-lg btn-block">
                                                 {{part.correct}}
                                             </button>
+                                            <img :id="`zoomedimage${index}`" v-show="imageZoomStatus" class="zoomedImage">
                                         </div>
 
                                     </div>
@@ -69,31 +70,10 @@
                                         <div class="card SecondCard">
 
                                             <div class="img-holder">
-                                                <img :src="part.image">
+                                                <img :id="`myimage${index}`" :src="part.image">
                                             </div>
                                             
                                         </div>
-                                    </div>
-                                    <!-- <div
-                                      v-show="imageZoom"
-                                      @click="zoomImage"
-                                      class="lightbox"
-                                      style="position: fixed; overflow: hidden;left: 7%;">
-                                      <img
-                                      :src="part.image">
-                                    </div> -->
-                                    <div
-                                      class="img-zoom-container lightbox"
-                                      v-show="imageZoom"
-                                      @click="zoomImage(`myimage${index}`,`myresult${index}`)"
-                                      style="position: fixed; overflow: hidden;left: 7%;"
-                                      >
-                                        <img
-                                          :id="`myimage${index}`"
-                                          :src="part.image"
-                                          @click.prevent.stop
-                                          alt="question-image">
-                                        <div :id="`myresult${index}`" class="img-zoom-result"></div>
                                     </div>
                                 </div>
                             </div>
@@ -138,7 +118,7 @@
                         </div>
 
                         <div class="col-1 my-2">
-                            <button onclick="finishClick()" type="button" class="btn btn-success" style="height:95%; font-size:1em">Avsluta Prov</button>
+                            <button @click="userAnswerHandler" type="button" class="btn btn-success" style="height:95%; font-size:1em">Avsluta Prov</button>
                         </div>
 
                     </div>
@@ -160,20 +140,59 @@ export default {
 name:'QuestionCard',
 data(){
     return{
-        questions:QuestionsArray.splice(0,5),showAnswer : false,
+        questions:QuestionsArray.sort(()=>{Math.random() - 0.5}),
         currentIndex:0,
-        imageZoom:false,
+        imageZoomStatus:true,
+        userAnswers:[],
+        resultsArray:[]
     }
 },
 methods:{
-    zoomImage(image,result){
-          this.imageZoom = !this.imageZoom
-          imageZoom(image,result)
+    showAnswerHandler(index){
+        
+        
+        let element = document.querySelectorAll('.correctAnswers')[index]
+
+        if (element.style.display = 'none') {
+            element.style.display = 'block'
+        }else{
+            element.style.display = 'none'
+            }
+
+            
+    },
+    zoomImageHandler(image, zoomed){
+        //   this.imageZoomStatus = !this.imageZoomStatus
+            imageZoom(image, zoomed)
+          
+
+      },
+      userAnswerHandler(){
+          let score = 0
+          for (let index = 0; index < this.questions.length; index++) {
+              const element = {
+                  question: this.questions[index].question,
+                  correct: this.questions[index].correct,
+                  image: this.questions[index].image,
+                  userAnswer: this.userAnswers[index] || 'No Answer'
+
+              };
+
+              if (element.correct === element.userAnswer) score++
+
+              this.resultsArray.push(element);
+              
+          }
+          this.$store.state.results = this.resultsArray
+          this.$store.state.resultsScore = score
+          this.$store.state.resultPage = !this.$store.state.resultPage
       }
 }
 }
+
 </script>
 
-<style>
+<style scoped>
+
 
 </style>

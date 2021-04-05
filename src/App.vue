@@ -1,16 +1,20 @@
 <template>
   <div id="app">
-    <Header msg="Welcome to Your Vue.js App"/>
+    <Header v-show="!this.$store.state.resultPage"/>
+    <Results v-show="this.$store.state.resultPage" />
+    
   </div>
 </template>
 
 <script>
 import Header from './components/Header.vue'
+import Results from './components/Results.vue'
 
 export default {
   name: 'App',
   components: {
-    Header
+    Header,
+    Results,
   }
 }
 </script>

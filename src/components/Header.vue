@@ -43,12 +43,14 @@
                     </div>
                 </div>
             <question-card/>
+            
         
   </div>
 </template>
 
 <script>
 import QuestionCard from './QuestionCard.vue'
+
 
 export default {
   name: 'Header',
@@ -61,7 +63,7 @@ export default {
           percent:"100%",
           timeHide : false,
           timeStop : false,
-          initPercent:100,         
+          initPercent:100,      
       }
   },
   methods:{
