@@ -20,7 +20,7 @@
 
                                                     <li class="togglepadding"> <label class="switch">
                                                             <input type="checkbox">
-                                                            <span @click="zoomImageHandler(`myimage${index}`,`zoomedimage${index}`)" class="toggler round"></span>
+                                                            <span @click="zooming = !zooming" class="toggler round"></span>
                                                         </label> </li>
 
                                                     <li>
@@ -29,7 +29,9 @@
                                                     </li>
                                                     <li class="togglepadding"> <label class="switch">
                                                             <input type="checkbox">
-                                                            <span @click="showAnswerHandler(index)" class="toggler round"></span>
+                                                            <span
+                                                              @click="showAnswerHandler(index)"
+                                                              class="toggler round"></span>
                                                         </label> </li>
 
                                                     <li>
@@ -61,7 +63,6 @@
                                             <button type="button" style="display:none" class="correctAnswers btn btn-primary btn-lg btn-block">
                                                 {{part.correct}}
                                             </button>
-                                            <img :id="`zoomedimage${index}`" v-show="imageZoomStatus" class="zoomedImage">
                                         </div>
 
                                     </div>
@@ -69,11 +70,20 @@
                                     <div class="col-8">
                                         <div class="card SecondCard">
 
-                                            <div class="img-holder">
+                                            <div class="img-holder" >
                                                 <img :id="`myimage${index}`" :src="part.image">
                                             </div>
                                             
                                         </div>
+                                    </div>
+                                    <div
+                                      v-show="zooming"
+                                      :id="`lightbox${index}`"
+                                      @click="zooming = !zooming"
+                                      class="lightbox">
+                                        <div class="lens"></div>
+                                        <img :src="part.image" @mousemove="zoom">
+
                                     </div>
                                 </div>
                             </div>
@@ -142,9 +152,9 @@ data(){
     return{
         questions:QuestionsArray.sort(()=>{Math.random() - 0.5}),
         currentIndex:0,
-        imageZoomStatus:true,
         userAnswers:[],
-        resultsArray:[]
+        resultsArray:[],
+        zooming:false
     }
 },
 methods:{
@@ -161,38 +171,59 @@ methods:{
 
             
     },
-    zoomImageHandler(image, zoomed){
-        //   this.imageZoomStatus = !this.imageZoomStatus
-            imageZoom(image, zoomed)
-          
+    userAnswerHandler(){
+        let score = 0
+        for (let index = 0; index < this.questions.length; index++) {
+            const element = {
+                question: this.questions[index].question,
+                correct: this.questions[index].correct,
+                image: this.questions[index].image,
+                userAnswer: this.userAnswers[index] || 'No Answer'
 
-      },
-      userAnswerHandler(){
-          let score = 0
-          for (let index = 0; index < this.questions.length; index++) {
-              const element = {
-                  question: this.questions[index].question,
-                  correct: this.questions[index].correct,
-                  image: this.questions[index].image,
-                  userAnswer: this.userAnswers[index] || 'No Answer'
+            };
 
-              };
+            if (element.correct === element.userAnswer) score++
 
-              if (element.correct === element.userAnswer) score++
+            this.resultsArray.push(element);
+            
+        }
+        this.$store.state.results = this.resultsArray
+        this.$store.state.resultsScore = score
+        this.$store.state.resultPage = !this.$store.state.resultPage
+    },
+    zoom(e){
+        
+        let zoomer = e.currentTarget;
+        let imageSrc = e.currentTarget.getAttribute('src')
+        let x = e.offsetX/zoomer.offsetWidth*100
+        let y = e.offsetY/zoomer.offsetHeight*100
+        zoomer.previousElementSibling.style.backgroundImage = `url(${imageSrc})`
+        zoomer.previousElementSibling.style.backgroundPosition = x + '% ' + y + '%';
+        zoomer.previousElementSibling.style.transform = 'scale(2)';
 
-              this.resultsArray.push(element);
-              
-          }
-          this.$store.state.results = this.resultsArray
-          this.$store.state.resultsScore = score
-          this.$store.state.resultPage = !this.$store.state.resultPage
-      }
 }
+      
+},
+
 }
 
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 
-
+.img-holder {
+  & img:hover {
+    opacity: 0;
+  }
+  img {
+    transition: opacity .5s;
+    display: block;
+    width: 100%;
+  }
+  background-position: 50% 50%;
+  position: relative;
+  width: 500px;
+  overflow: hidden;
+  cursor: zoom-in;
+}
 </style>

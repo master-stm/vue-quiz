@@ -19,13 +19,39 @@ p {
   max-width: 100%;
 }
 
-/****************************************/
+/****************** lightBox **********************/
 
-.zoomedImage {
-  width: 100%;
-  height: 45%;
+.lightbox {
+  position: fixed;
+  z-index: 1000;
+  margin: auto;
+  top: 0;
+  width: 85%;
+  height: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.lightbox img {
+  position: absolute;
+  top: 22%;
+  left: 25%;
+  margin: auto;
+  width: 50%;
+  height: auto;
+  /* cursor: none; */
+}
+
+.lens {
+  z-index: 1100;
+  position: absolute;
+  left: 10%;
+  top: 40%;
+  height: 150px;
+  width: 150px;
+  border: 2px solid black;
   background-repeat: no-repeat;
-  object-fit: fill;
+  cursor: none;
 }
 
 /****************************************/
