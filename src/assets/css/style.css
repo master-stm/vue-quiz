@@ -320,10 +320,10 @@ input:checked + .toggler:before {
   padding-right: 1%;
 }
 #bottomSection .col-10 {
-  padding: 10px 9%;
+  padding: 10px 7%;
 }
 #bottomSection .btn {
-  font-size: 12px;
+  font-size: 0.8em;
   margin: auto;
 }
 #bottomSection .container {

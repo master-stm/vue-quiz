@@ -20,7 +20,7 @@
 
                                                     <li class="togglepadding"> <label class="switch">
                                                             <input type="checkbox">
-                                                            <span @click="zooming = !zooming" class="toggler round"></span>
+                                                            <span @click="showHandler(index,'lightbox')" class="toggler round"></span>
                                                         </label> </li>
 
                                                     <li>
@@ -30,7 +30,7 @@
                                                     <li class="togglepadding"> <label class="switch">
                                                             <input type="checkbox">
                                                             <span
-                                                              @click="showAnswerHandler(index)"
+                                                              @click="showHandler(index,'correctAnswers')"
                                                               class="toggler round"></span>
                                                         </label> </li>
 
@@ -40,7 +40,9 @@
 
                                                     <li class="togglepadding"> <label class="switch">
                                                             <input type="checkbox">
-                                                            <span class="toggler round"></span>
+                                                            <span
+                                                                @click="showHandler(index,'marked')"
+                                                              class="toggler round"></span>
                                                         </label> </li>
                                                 </ul>
 
@@ -60,7 +62,11 @@
                                                     </div>
 
                                             </div>
-                                            <button type="button" style="display:none" class="correctAnswers btn btn-primary btn-lg btn-block">
+                                            <button
+                                              type="button"
+                                              ref="correctAnswers"
+                                                style="display:none;"
+                                              class="btn btn-primary btn-lg btn-block">
                                                 {{part.correct}}
                                             </button>
                                         </div>
@@ -77,9 +83,10 @@
                                         </div>
                                     </div>
                                     <div
-                                      v-show="zooming"
+                                      style="display:none;"
                                       :id="`lightbox${index}`"
-                                      @click="zooming = !zooming"
+                                      ref="lightbox"
+                                      @click="showHandler(index,'lightbox')"
                                       class="lightbox">
                                         <div class="lens"></div>
                                         <img :src="part.image" @mousemove="zoom">
@@ -108,8 +115,8 @@
 
                         <div class="col-10 slider-pagination">
                             
-                                <a v-for="(part,j) in questions" :key="j" style="margin: 0 0.1em" class="btn current" href="#slide-1">
-                                    {{j+1}}<span style="display: none;">*</span>
+                                <a v-for="(part,j) in questions" :key="j" style="margin: 0 0.1em" class="btn current" @click="currentIndex = j">
+                                    {{j+1}}<sup ref="marked" class="marker" style="display: none;">*</sup>
                                 </a>
                                 
                                 
@@ -153,22 +160,21 @@ data(){
         questions:QuestionsArray.sort(()=>{Math.random() - 0.5}),
         currentIndex:0,
         userAnswers:[],
-        resultsArray:[],
-        zooming:false
+        resultsArray:[]
     }
 },
 methods:{
-    showAnswerHandler(index){
-        
-        
-        let element = document.querySelectorAll('.correctAnswers')[index]
+    showHandler(index,ref){
 
-        if (element.style.display = 'none') {
+        let element = this.$refs[ref][index]
+
+        if(element.style.display === 'none' && index === this.currentIndex){
             element.style.display = 'block'
         }else{
             element.style.display = 'none'
-            }
+        }
 
+        
             
     },
     userAnswerHandler(){
@@ -205,6 +211,10 @@ methods:{
       
 },
 
+mounted() {
+    fetch('https://api.ipify.org/?format=json').then(res => res.json()).then(data => data.ip)
+},
+
 }
 
 </script>
@@ -225,5 +235,11 @@ methods:{
   width: 500px;
   overflow: hidden;
   cursor: zoom-in;
+}
+
+.marker{
+    top: -0.6em;
+    right: -0.4em;
+    font-size: 1.3em;
 }
 </style>

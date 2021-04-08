@@ -1,9 +1,10 @@
 <template>
   <div id="app">
-    <Header v-show="!this.$store.state.resultPage"/>
-    <Results v-show="this.$store.state.resultPage" />
-    
+    <Header v-show="!this.$store.state.showResults"/>
+    <Results v-show="this.$store.state.showResults" />
+     <!-- <router-view/> -->
   </div>
+ 
 </template>
 
 <script>
