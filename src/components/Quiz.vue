@@ -69,34 +69,17 @@ export default {
   methods:{
       hideTime(){
           this.timeHide = !this.timeHide
-          if(this.timeHide){
-              console.log('time is hidden')
-          }else{
-              console.log('time is visible')
-          }
       },
       startTime(){
             setInterval(()=>{
-                    /* if(this.minutes > 0){
-                    this.timer = this.minutes
-                    this.timerLabel = 'Minutes'
-                    }else{
-                        this.timer = this.seconds
-                        this.timerLabel = 'Seconds'
-                    }
-                     */
+                   
                     this.initPercent -= 2
                     this.percent = this.initPercent+"%"
                     this.timer--
                 },60000)
       },
       stopTime(){
-          /* this.timeStop = !this.timeStop
-          if(this.timeStop){
-              console.log('time is stopped')
-          }else{
-              console.log('time is running')
-          } */
+          
           clearInterval(this.startTime)
       },
   },

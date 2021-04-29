@@ -1,1 +1,55 @@
-GET http://localhost:3000
+@admin = http://localhost:3000/api
+@public = http://localhost:3000
+
+GET {{public}}
+# calls front-end
+###
+
+GET {{public}}/getQuestions/arabic/bil_imp
+# OK
+
+###
+
+GET {{public}}/getLanguagesAndCategories
+# OK
+
+
+######### Admin requests #########
+
+###
+
+POST {{admin}}/addQuestions HTTP/1.1
+# ok
+
+###
+
+GET {{admin}}/editQuestions/swedish/bil
+# ok
+
+###
+POST {{admin}}/editQuestions
+
+###
+
+GET {{admin}}/deleteQuestions/arabic/bil HTTP/1.1
+# ok
+
+###
+POST {{admin}}/deleteQuestions
+# ok
+
+###
+POST {{admin}}/addLanguage
+
+####
+
+POST {{admin}}/addCategory
+
+###
+
+POST {{admin}}/deleteLanguage
+
+####
+
+POST {{admin}}/deleteCategory
+

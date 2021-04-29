@@ -95,23 +95,11 @@ p {
 
 .img-holder {
   margin: auto;
-  /* padding-top: 1em;
-  text-align: center;
-  width: 60em;
-  height: auto;
-  object-fit: cover; */
   width: 43em;
   height: 90%;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
-}
-.img-holder img {
-  height: 100%;
-  width: 100%;
-  max-height: 100vh;
-  max-width: 100vh;
-  object-fit: contain;
 }
 
 /****************************************/
@@ -517,11 +505,6 @@ input:checked + .toggler:before {
   }
   .img-holder {
     margin: auto;
-    /* padding-top: 1em;
-  text-align: center;
-  width: 60em;
-  height: auto;
-  object-fit: cover; */
     width: 70%;
     height: 75%;
     background-position: 50% 50%;
@@ -529,6 +512,6 @@ input:checked + .toggler:before {
     background-size: cover;
   }
   .img-holder img {
-    transform: scale(1.2);
+    transform: scale(1);
   }
 }

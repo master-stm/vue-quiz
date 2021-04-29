@@ -1,8 +1,10 @@
 <template>
+
+
   <div class="slider" id="main-slider">
             <div v-for="(part,index) in questions" :key="index" v-show="currentIndex === index" class="slider-wrapper">
                 
-                    <div class="slide">
+                    <div class="slide" :id="`slider-${index}`">
 
                         <section>
                             <div class="container">
@@ -30,7 +32,7 @@
                                                     <li class="togglepadding"> <label class="switch">
                                                             <input type="checkbox">
                                                             <span
-                                                              @click="showHandler(index,'correctAnswers')"
+                                                              @click="showAnswer(index)"
                                                               class="toggler round"></span>
                                                         </label> </li>
 
@@ -41,7 +43,7 @@
                                                     <li class="togglepadding"> <label class="switch">
                                                             <input type="checkbox">
                                                             <span
-                                                                @click="showHandler(index,'marked')"
+                                                                @click="markHandler(index)"
                                                               class="toggler round"></span>
                                                         </label> </li>
                                                 </ul>
@@ -55,10 +57,16 @@
 
                                             </div>
 
-                                            <div class="answers">
+                                            <div class="answers" ref="answers">
 
-                                                    <div v-for="(answer,i) in part.answers" :key="i" class="input">
-                                                        <input type="radio" :id="i" :value="answer" v-model="userAnswers[index]" >{{answer}}<br>
+                                                    <div v-for="(answer,i) in part.answers.sort((a, b) => 0.5 - Math.random())" :key="i" class="input">
+                                                        <input
+                                                          type="radio"
+                                                          :id="i"
+                                                          @change="checkAnswered(index,i)"
+                                                          :value="answer"
+                                                          v-model="userAnswers[index]"
+                                                          >{{answer}}<br>
                                                     </div>
 
                                             </div>
@@ -75,10 +83,12 @@
 
                                     <div class="col-8">
                                         <div class="card SecondCard">
-
-                                            <div class="img-holder" >
-                                                <img :id="`myimage${index}`" :src="part.image">
-                                            </div>
+                                            
+                                                <div class="img-holder" >
+                                                    <img :id="`myimage${index}`" :src="part.image">
+                                                </div>
+                                            
+                                            
                                             
                                         </div>
                                     </div>
@@ -115,8 +125,14 @@
 
                         <div class="col-10 slider-pagination">
                             
-                                <a v-for="(part,j) in questions" :key="j" style="margin: 0 0.1em" class="btn current" @click="currentIndex = j">
-                                    {{j+1}}<sup ref="marked" class="marker" style="display: none;">*</sup>
+                                <a
+                                  v-for="(part,j) in questions"
+                                  :key="j"
+                                  style="margin: 0 0.1em"
+                                  class="btn"
+                                  ref="marked"
+                                  @click="currentIndex = j">
+                                    {{j+1}}
                                 </a>
                                 
                                 
@@ -128,7 +144,7 @@
                             <ul>
                                 <li>Besvarade <a id="Besvarade" class="btn m-1 current">0</a> </li>
                                 <li>obesvarade <a id="obesvarade" class="btn m-1">{{questions.length}}</a> </li>
-                                <li>Markerade <a id="Markerade" style="font-size: 12px;" class="btn m-1">0<span>*</span></a>
+                                <li>Markerade <a id="Markerade" style="font-size: 12px;" class="btn m-1 marker">0</a>
                                 </li>
                             </ul>
 
@@ -142,60 +158,83 @@
                 </div>
 
             </div>
-            <!--bottom section ends here-->
-
-
 
         </div>
+
 </template>
 
 <script>
-const QuestionsArray = require('../70questions.json')
+// const QuestionsArray = require('../70questions.json')
 import imageZoom from '../static/imageZoom'
+import {mapActions, mapGetters} from 'vuex'
+
 
 export default {
 name:'QuestionCard',
 data(){
     return{
-        questions:QuestionsArray.sort(()=>{Math.random() - 0.5}),
+        questions:[],
+        // questions:QuestionsArray.sort(()=>{Math.random() - 0.5}),
         currentIndex:0,
         userAnswers:[],
         resultsArray:[]
     }
 },
 methods:{
+    ...mapActions(['setResultsAction']),
+    ...mapGetters(['fetchedQuestions']),
     showHandler(index,ref){
 
         let element = this.$refs[ref][index]
-
         if(element.style.display === 'none' && index === this.currentIndex){
             element.style.display = 'block'
         }else{
             element.style.display = 'none'
         }
+   
+    },
+    showAnswer(index){
+        let div = this.$refs['answers'][index]
+        div.childNodes.forEach(child => {
+            if(child.innerText.trim() === this.questions[index].correct){
+                if(child.style.backgroundColor === 'limegreen'){
+                    child.style.backgroundColor = 'rgb(219, 230, 234)'
+                }else{
+                    child.style.backgroundColor = 'limegreen'
+                }
+            }
+        });
+    },
+    checkAnswered(index,i){
+        let element = this.$refs['marked'][index]
 
-        
-            
+        let questionObject = {
+            index,
+            question : this.questions[index].question,
+            correctAnswer:this.questions[index].correct,
+            image: this.questions[index].image,
+            userAnswer: this.questions[index].answers[i]
+        }
+
+        this.setResultsAction(questionObject)
+         
+        if(!element.classList.contains('current')){
+            element.classList.add('current')
+        }
+    },
+    markHandler(index){
+        this.$refs['marked'][index].classList.toggle("marker")
     },
     userAnswerHandler(){
         let score = 0
-        for (let index = 0; index < this.questions.length; index++) {
-            const element = {
-                question: this.questions[index].question,
-                correct: this.questions[index].correct,
-                image: this.questions[index].image,
-                userAnswer: this.userAnswers[index] || 'No Answer'
 
-            };
-
-            if (element.correct === element.userAnswer) score++
-
-            this.resultsArray.push(element);
-            
-        }
-        this.$store.state.results = this.resultsArray
-        this.$store.state.resultsScore = score
-        this.$store.state.resultPage = !this.$store.state.resultPage
+        this.$store.state.results.forEach(element => {
+            if(element.correctAnswer === element.userAnswer) score++
+        });
+        
+        this.$store.state.resultsScore = score 
+        
+        this.$router.push('Results')
     },
     zoom(e){
         
@@ -210,10 +249,10 @@ methods:{
 }
       
 },
-
-mounted() {
-    fetch('https://api.ipify.org/?format=json').then(res => res.json()).then(data => data.ip)
-},
+beforeCreate(){
+    this.questions = this.fetchedQuestions
+    
+}
 
 }
 
@@ -232,14 +271,16 @@ mounted() {
   }
   background-position: 50% 50%;
   position: relative;
-  width: 500px;
+  width: 80%;
   overflow: hidden;
   cursor: zoom-in;
 }
 
 .marker{
-    top: -0.6em;
-    right: -0.4em;
-    font-size: 1.3em;
+    background-color:#59a3cf;
+}
+
+.correct-answer{
+    background-color:'green';
 }
 </style>

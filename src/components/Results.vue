@@ -7,12 +7,12 @@
       <div class="row">
           <div v-for="(result,index) in results" :key="index" class="card col-md-4">
           <img :src="result.image" alt="question-image" style="width:50%">
-          <div class="container">
+          <div class="container" :class="[result.correctAnswer.trim() === result.userAnswer.trim() ? 'right-answer' : 'wrong-answer']">
             <h4><b>{{result.question}}</b></h4>
-            <hr>
+            <hr >
             <div class="answers-container">
-              <p style="color:green">Correct Answer: {{result.correct}}</p>
-            <p style="color:red">User's Answer: {{result.userAnswer}}</p>
+              <p>Correct Answer: {{result.correctAnswer}}</p>
+            <p>User's Answer: {{result.userAnswer}}</p>
             </div>
           
             </div>
@@ -44,9 +44,9 @@ computed:{
   }
 
   /* On mouse-over, add a deeper shadow */
-  .card:hover {
+/*   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
+  } */
 
   /* Add some padding inside the card container */
   .container {
@@ -68,15 +68,26 @@ computed:{
 .answers-container{
   width:60%;
   margin: auto;
+  
 }
 
 .answers-container>p{
   text-align: start;
+  font-weight:700;
 }
 
 .col-md-4>img{
     width: 50%;
     height: auto;
     object-fit: none;
+}
+
+.wrong-answer{
+  border-left: 5px solid red;
+  margin-left: 0.2em;
+}
+.right-answer{
+  border-left: 5px solid green;
+  margin-left: 0.2em;
 }
 </style>

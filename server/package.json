@@ -4,12 +4,18 @@
   "description": "APIs handling for vue-quiz app",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "node server.js",
+    "client":"npm run serve",
+    "dev": "concurrently \"npm run server\" \"cd .. && npm run serve\" "
   },
   "author": "Salem",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^6.0.2",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
-    "mongoose": "^5.12.3"
+    "mongoose": "^5.12.3",
+    "morgan": "^1.10.0"
   }
 }
