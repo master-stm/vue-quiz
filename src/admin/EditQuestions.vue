@@ -47,7 +47,6 @@ export default {
         async searchHandler(){
             let response = await axios.get(`http://localhost:3000/api/editQuestions/${this.searchQuery.language}/${this.searchQuery.category}`)
             this.queriedQuestion = response.data
-            console.log(this.queriedQuestion)
         }
     },
 }

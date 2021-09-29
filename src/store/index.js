@@ -33,7 +33,7 @@ export default new Vuex.Store({
       commit('setResultsMutation', payload)
     },
     async loadLanguagesCategoriesAction({commit}) {
-      let payload = await axios.get('http://localhost:3000/getLanguagesAndCategories')
+      let payload = await axios.get('http://localhost:8080/getLanguagesAndCategories')
        commit('loadLanguagesCategoriesMutation', payload)
     },
     setQuestionsStoreAction({commit}, payload) {

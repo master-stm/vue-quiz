@@ -50,6 +50,7 @@
 <script>
 import { mapActions, mapGetters  } from 'vuex'
 import axios from 'axios'
+import fs from 'fs'
 
 export default {
   name: 'Home',
@@ -57,7 +58,6 @@ export default {
     return {
       selectedLanguage:'',
       selectedCategory:'',
-      fetchedQuestions:[]
     }
   },
   filters:{
@@ -67,16 +67,23 @@ export default {
   },
   methods: {
     ...mapActions(['loadLanguagesCategoriesAction','setQuestionsStoreAction']),
+    async createdQuiz(){
+      
+      let response =await axios.get(`http://localhost:8080/getQuestions/${this.selectedLanguage.toLowerCase()}/${this.selectedCategory.toLowerCase()}`)
+
+      // fs.writeFileSync('../questions.json', JSON.stringify(response.data, 'utf8'))
+      localStorage.setItem('questions', JSON.stringify(response.data, 'utf8'))
+      this.$router.push('/quiz')
+    }
+    
 },
 computed:{
 ...mapGetters(['fetchedLanguages','fetchedCategories'])
-}/* ,
+},
 async created() {
         
-      let questions = await axios.get(`http://localhost:3000/getQuestions/${this.selectedLanguage.toLowerCase()}/${this.selectedCategory.toLowerCase()}`)
-      console.log(questions.data);
-      this.setQuestionsStoreAction(questions.data) 
-    } */
+      this.loadLanguagesCategoriesAction()
+    }
 }
 </script>
 

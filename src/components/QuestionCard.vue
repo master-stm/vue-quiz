@@ -85,7 +85,7 @@
                                         <div class="card SecondCard">
                                             
                                                 <div class="img-holder" >
-                                                    <img :id="`myimage${index}`" :src="part.image">
+                                                    <img :id="`myimage${index}`" :src="part.image | imageCheck">
                                                 </div>
                                             
                                             
@@ -164,7 +164,7 @@
 </template>
 
 <script>
-// const QuestionsArray = require('../70questions.json')
+// const QuestionsArray = require('../questions.json')
 import imageZoom from '../static/imageZoom'
 import {mapActions, mapGetters} from 'vuex'
 
@@ -249,9 +249,18 @@ methods:{
 }
       
 },
-beforeCreate(){
-    this.questions = this.fetchedQuestions
-    
+mounted() {
+    this.questions = JSON.parse(localStorage.getItem('questions'))
+},
+filters:{
+    imageCheck(value){
+        
+        if(value.slice(0,4) !== 'http' || value.slice(0,5) !== 'https'){
+            return `http://localhost:3000/uploads/${value}`
+        }else{
+            return value
+        }
+    }
 }
 
 }

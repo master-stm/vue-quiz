@@ -42,7 +42,7 @@
                         </ul>
                     </div>
                 </div>
-            <question-card/>
+            <QuestionCard/>
             
         
   </div>
